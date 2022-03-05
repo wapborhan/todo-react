@@ -5,7 +5,11 @@ import TodoList from "./TodoList";
 export default function Main() {
   // State
   const [inputText, setInputText] = useState("");
-  const [todos, setTodos] = useState([]);
+  const [todos, setTodos] = useState([
+    { text: "Walk 5 KM", completed: false, id: 472.06950039109154 },
+    { text: "Drink 5 liter Water", completed: true, id: 616.7920414655341 },
+    { text: "Timely Sleep", completed: false, id: 407.4344101581109 },
+  ]);
   const [status, setStatus] = useState("all");
   const [filteredTodos, setFilteredTodos] = useState([]);
 
