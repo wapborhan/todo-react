@@ -12,6 +12,7 @@ const TodoList = ({ todos, setTodos }) => {
             todos={todos}
             key={todo.id}
             text={todo.text}
+            todo={todo}
           />
         ))}
       </ul>
